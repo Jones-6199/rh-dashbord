@@ -2,6 +2,8 @@ import { defineConfig } from 'vite';
 import vue from '@vitejs/plugin-vue';
 import { resolve } from 'path';
 
+const port = process.env.PORT ? parseInt(process.env.PORT, 10) : 5173;
+
 // https://vitejs.dev/config/
 export default defineConfig({
   plugins: [vue()],
@@ -11,12 +13,12 @@ export default defineConfig({
     },
   },
   server: {
-    port: 5173,
+    port,
     host: true,
     allowedHosts: true,
   },
   preview: {
-    port: 5173,
+    port,
     host: true,
     allowedHosts: true,
   },
