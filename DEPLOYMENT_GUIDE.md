@@ -44,6 +44,9 @@ app.listen(PORT, () => {
    - **Build Command :** `npm install && npm run build`
    - **Start Command :** `node server.js`
 
+> 💡 **Note pour Vite Host Security (Render) :**  
+> `vite.config.ts` inclut `allowedHosts: true` dans `server` et `preview` afin d'autoriser automatiquement l'accès depuis le domaine Render (`rh-dashbord.onrender.com`).
+
 ---
 
 ## 🚀 Option 2 : Vercel (Frontend) + Render / Railway (API Backend)
