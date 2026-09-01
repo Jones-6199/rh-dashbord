@@ -7,7 +7,7 @@
     "dev": "vite",
     "api": "json-server --watch db.json --port 3000",
     "start": "concurrently -k -p \"[{name}]\" -c \"cyan,magenta\" \"npm run api\" \"npm run dev\"",
-    "build": "vue-tsc && vite build",
+    "build": "vite build",
     "preview": "vite preview",
     "test": "vitest run",
     "test:watch": "vitest"

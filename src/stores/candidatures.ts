@@ -12,7 +12,6 @@ import type {
 export const useCandidaturesStore = defineStore('candidatures', () => {
   const { notifySuccess, notifyError } = useNotification();
 
-  // State
   const candidatures = ref<Candidature[]>([]);
   const statuts = ref<StatutInfo[]>([]);
   const postes = ref<string[]>([]);
@@ -24,13 +23,13 @@ export const useCandidaturesStore = defineStore('candidatures', () => {
   const error = ref<string | null>(null);
 
   const viewMode = ref<ViewMode>(
-    (localStorage.getItem('talentpulse_view_mode') as ViewMode) || 'grid'
+    (typeof localStorage !== 'undefined' ? (localStorage.getItem('talentpulse_view_mode') as ViewMode) : null) || 'grid'
   );
 
   const selectedCandidate = ref<Candidature | null>(null);
   const isModalOpen = ref(false);
 
-  // Filters State
+  // Filters Stae
   const filters = ref<FilterParams>({
     q: '',
     statut: 'Tous',
@@ -48,7 +47,9 @@ export const useCandidaturesStore = defineStore('candidatures', () => {
   // Actions
   function setViewMode(mode: ViewMode) {
     viewMode.value = mode;
-    localStorage.setItem('talentpulse_view_mode', mode);
+    if (typeof localStorage !== 'undefined') {
+      localStorage.setItem('talentpulse_view_mode', mode);
+    }
   }
 
   function setPage(page: number) {

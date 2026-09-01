@@ -5,12 +5,12 @@
     </div>
     <h3 class="text-lg font-bold text-rose-900 dark:text-white mb-2">Erreur de Connexion API</h3>
     <p class="text-xs text-rose-700 dark:text-rose-200/80 mb-6 leading-relaxed">
-      {{ errorMessage || 'Impossible d\'accéder aux données sur http://localhost:3000. Veuillez vérifier que JSON Server est bien démarré.' }}
+      {{ errorMessage || `Impossible d'accéder aux données sur ${API_URL}. Veuillez vérifier que le serveur API est bien accessible.` }}
     </p>
     
     <div class="p-3 bg-white dark:bg-slate-900/80 rounded-xl font-mono text-xs text-slate-800 dark:text-slate-300 border border-slate-200 dark:border-slate-800 mb-6 text-left shadow-inner">
-      <p class="text-slate-500 dark:text-slate-400 mb-1"># Command pour démarrer JSON Server :</p>
-      <p class="text-emerald-600 dark:text-emerald-400 font-semibold">json-server --watch db.json --port 3000</p>
+      <p class="text-slate-500 dark:text-slate-400 mb-1"># URL de l'API configurée :</p>
+      <p class="text-emerald-600 dark:text-emerald-400 font-semibold truncate">{{ API_URL }}</p>
     </div>
 
     <button
@@ -25,6 +25,7 @@
 
 <script setup lang="ts">
 import { AlertTriangle, RefreshCw } from 'lucide-vue-next';
+import { API_URL } from '@/services/api';
 
 defineProps<{
   errorMessage?: string | null;

@@ -1,6 +1,6 @@
 import axios, { type AxiosInstance, type AxiosRequestConfig } from 'axios';
 
-const API_URL = import.meta.env.VITE_API_URL || 'http://localhost:3000';
+export const API_URL = import.meta.env.VITE_API_URL || 'https://rh-dashbord.onrender.com';
 
 // Simple in-memory Cache for static/slow-changing resources
 const cacheMap = new Map<string, { data: any; expiry: number }>();
