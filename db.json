@@ -1,0 +1,339 @@
+{
+  "candidatures": [
+    {
+      "id": 1,
+      "nom": "Sophie Martin",
+      "poste": "Développeur Vue.js",
+      "statut": "Accepté",
+      "competences": [
+        "Vue 3",
+        "TypeScript",
+        "Pinia",
+        "Tailwind CSS"
+      ],
+      "experience": "4 ans",
+      "dateCandidature": "2026-08-28T09:30:00.000Z",
+      "email": "sophie.martin@example.com",
+      "telephone": "+33 6 12 34 56 78",
+      "cv": "https://example.com/cv/sophie-martin.pdf",
+      "lettreMotivation": "Passionnée par le développement Vue.js et l'architecture frontend moderne, je souhaite apporter mon expertise à votre équipe.",
+      "salaireSouhaite": 48000,
+      "disponibilite": "Immédiate",
+      "localisation": "Paris (Full Remote)",
+      "commentaires": [
+        {
+          "id": 101,
+          "auteur": "Jean Dupont (Lead Recruteur)",
+          "date": "2026-08-29T10:15:00.000Z",
+          "contenu": "Excellent profil Vue 3 avec de solides compétences TypeScript. Premier contact téléphonique très positif."
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "nom": "Lucas Bernard",
+      "poste": "Lead Developer Frontend",
+      "statut": "Test Technique",
+      "competences": [
+        "Vue.js",
+        "React",
+        "Architecture Web",
+        "CI/CD",
+        "Vitest"
+      ],
+      "experience": "7 ans",
+      "dateCandidature": "2026-08-25T14:20:00.000Z",
+      "email": "lucas.bernard@example.com",
+      "telephone": "+33 6 98 76 54 32",
+      "cv": "https://example.com/cv/lucas-bernard.pdf",
+      "lettreMotivation": "Solide expérience dans l'encadrement d'équipes frontend et le design de design systems modulaires.",
+      "salaireSouhaite": 65000,
+      "disponibilite": "1 mois",
+      "localisation": "Lyon (Hybride)",
+      "commentaires": [
+        {
+          "id": 102,
+          "auteur": "Marie Curie (Tech Lead)",
+          "date": "2026-08-26T16:00:00.000Z",
+          "contenu": "Test technique envoyé. Délai de rendu fixé au 2 septembre."
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "nom": "Camille Thomas",
+      "poste": "Développeur Fullstack TS",
+      "statut": "En attente",
+      "competences": [
+        "Vue 3",
+        "Node.js",
+        "Express",
+        "PostgreSQL",
+        "Docker"
+      ],
+      "experience": "2 ans",
+      "dateCandidature": "2026-08-31T11:05:00.000Z",
+      "email": "camille.thomas@example.com",
+      "telephone": "+33 7 45 12 89 00",
+      "cv": "https://example.com/cv/camille-thomas.pdf",
+      "lettreMotivation": "Développeur enthousiaste avec une forte appétence pour l'écosystème TypeScript et Vue 3.",
+      "salaireSouhaite": 42000,
+      "disponibilite": "Immédiate",
+      "localisation": "Bordeaux (Remote 3j/semaine)",
+      "commentaires": []
+    },
+    {
+      "id": 4,
+      "nom": "Alexandre Petit",
+      "poste": "Développeur Vue.js",
+      "statut": "Entretien Client",
+      "competences": [
+        "Vue 3",
+        "Nuxt.js",
+        "GraphQL",
+        "Tailwind CSS"
+      ],
+      "experience": "5 ans",
+      "dateCandidature": "2026-08-20T16:45:00.000Z",
+      "email": "alexandre.petit@example.com",
+      "telephone": "+33 6 22 44 66 88",
+      "cv": "https://example.com/cv/alexandre-petit.pdf",
+      "lettreMotivation": "Spécialiste de la performance frontend et Nuxt.js SSR. Motivé à intégrer un projet ambitieux.",
+      "salaireSouhaite": 52000,
+      "disponibilite": "3 mois",
+      "localisation": "Nantes (Présentiel)",
+      "commentaires": [
+        {
+          "id": 103,
+          "auteur": "Jean Dupont (Lead Recruteur)",
+          "date": "2026-08-27T11:30:00.000Z",
+          "contenu": "Validation du test technique à 95%. Entretien final avec le directeur de compte prévu demain."
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "nom": "Emma Rousseau",
+      "poste": "UI/UX Designer & Frontend",
+      "statut": "Accepté",
+      "competences": [
+        "Figma",
+        "Vue 3",
+        "CSS/SCSS",
+        "Accessibility ARIA"
+      ],
+      "experience": "4 ans",
+      "dateCandidature": "2026-08-15T08:10:00.000Z",
+      "email": "emma.rousseau@example.com",
+      "telephone": "+33 6 33 55 77 99",
+      "cv": "https://example.com/cv/emma-rousseau.pdf",
+      "lettreMotivation": "Double compétence UI design et intégration frontend Vue.js pour créer des interfaces fluides et accessibles.",
+      "salaireSouhaite": 49000,
+      "disponibilite": "15 septembre 2026",
+      "localisation": "Paris (Hybride)",
+      "commentaires": [
+        {
+          "id": 104,
+          "auteur": "Claire Valois (RH)",
+          "date": "2026-08-30T14:00:00.000Z",
+          "contenu": "Offre d'embauche signée par la candidate ! Début de contrat le 15/09."
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "nom": "Hugo Dubois",
+      "poste": "Développeur Vue.js",
+      "statut": "Refusé",
+      "competences": [
+        "Vue 2",
+        "JavaScript",
+        "HTML/CSS",
+        "Bootstrap"
+      ],
+      "experience": "1 an",
+      "dateCandidature": "2026-08-18T10:00:00.000Z",
+      "email": "hugo.dubois@example.com",
+      "telephone": "+33 7 11 22 33 44",
+      "cv": "https://example.com/cv/hugo-dubois.pdf",
+      "lettreMotivation": "En recherche de ma seconde expérience en entreprise pour consolider mes bases Vue.js.",
+      "salaireSouhaite": 35000,
+      "disponibilite": "Immédiate",
+      "localisation": "Lille (Présentiel)",
+      "commentaires": [
+        {
+          "id": 105,
+          "auteur": "Jean Dupont (Lead Recruteur)",
+          "date": "2026-08-22T09:00:00.000Z",
+          "contenu": "Profil un peu junior pour le besoin actuel nécessitant de l'autonomie sur Vue 3 + TypeScript. Mail de refus envoyé."
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "nom": "Inès Moreau",
+      "poste": "Lead Developer Frontend",
+      "statut": "Entretien RH",
+      "competences": [
+        "Vue 3",
+        "TypeScript",
+        "Micro-frontends",
+        "Vite",
+        "PWA"
+      ],
+      "experience": "6 ans",
+      "dateCandidature": "2026-08-29T17:15:00.000Z",
+      "email": "ines.moreau@example.com",
+      "telephone": "+33 6 88 99 00 11",
+      "cv": "https://example.com/cv/ines-moreau.pdf",
+      "lettreMotivation": "Expertise approfondie sur l'écosystème Vue 3 et l'optimisation de performances web vitals.",
+      "salaireSouhaite": 62000,
+      "disponibilite": "2 mois",
+      "localisation": "Toulouse (Full Remote)",
+      "commentaires": [
+        {
+          "id": 1788277930867,
+          "auteur": "Recruteur Connecté",
+          "date": "2026-09-01T15:52:10.867Z",
+          "contenu": "ontheway"
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "nom": "Thomas Fontaine",
+      "poste": "Développeur Fullstack TS",
+      "statut": "Test Technique",
+      "competences": [
+        "TypeScript",
+        "Vue 3",
+        "NestJS",
+        "Prisma",
+        "PostgreSQL"
+      ],
+      "experience": "3 ans",
+      "dateCandidature": "2026-08-26T13:40:00.000Z",
+      "email": "thomas.fontaine@example.com",
+      "telephone": "+33 6 77 66 55 44",
+      "cv": "https://example.com/cv/thomas-fontaine.pdf",
+      "lettreMotivation": "Passionné par l'unification TypeScript frontend/backend et le développement de code propre et testé.",
+      "salaireSouhaite": 46000,
+      "disponibilite": "Immédiate",
+      "localisation": "Strasbourg (Hybride)",
+      "commentaires": [
+        {
+          "id": 106,
+          "auteur": "Marie Curie (Tech Lead)",
+          "date": "2026-08-28T15:20:00.000Z",
+          "contenu": "Bonne restitution lors de l'entretien technique initial. Test pratique en cours."
+        }
+      ]
+    }
+  ],
+  "statuts": [
+    {
+      "id": 1,
+      "nom": "En attente",
+      "couleur": "slate",
+      "ordre": 1
+    },
+    {
+      "id": 2,
+      "nom": "Entretien RH",
+      "couleur": "amber",
+      "ordre": 2
+    },
+    {
+      "id": 3,
+      "nom": "Test Technique",
+      "couleur": "blue",
+      "ordre": 3
+    },
+    {
+      "id": 4,
+      "nom": "Entretien Client",
+      "couleur": "purple",
+      "ordre": 4
+    },
+    {
+      "id": 5,
+      "nom": "Accepté",
+      "couleur": "emerald",
+      "ordre": 5
+    },
+    {
+      "id": 6,
+      "nom": "Refusé",
+      "couleur": "rose",
+      "ordre": 6
+    }
+  ],
+  "postes": [
+    {
+      "id": 1,
+      "nom": "Développeur Vue.js"
+    },
+    {
+      "id": 2,
+      "nom": "Lead Developer Frontend"
+    },
+    {
+      "id": 3,
+      "nom": "Développeur Fullstack TS"
+    },
+    {
+      "id": 4,
+      "nom": "UI/UX Designer & Frontend"
+    }
+  ],
+  "competences": [
+    {
+      "id": 1,
+      "nom": "Vue 3"
+    },
+    {
+      "id": 2,
+      "nom": "Vue.js"
+    },
+    {
+      "id": 3,
+      "nom": "TypeScript"
+    },
+    {
+      "id": 4,
+      "nom": "Pinia"
+    },
+    {
+      "id": 5,
+      "nom": "Tailwind CSS"
+    },
+    {
+      "id": 6,
+      "nom": "React"
+    },
+    {
+      "id": 7,
+      "nom": "Node.js"
+    },
+    {
+      "id": 8,
+      "nom": "Nuxt.js"
+    },
+    {
+      "id": 9,
+      "nom": "GraphQL"
+    },
+    {
+      "id": 10,
+      "nom": "Vitest"
+    },
+    {
+      "id": 11,
+      "nom": "NestJS"
+    },
+    {
+      "id": 12,
+      "nom": "Figma"
+    }
+  ]
+}
